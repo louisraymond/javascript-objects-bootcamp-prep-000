@@ -91,5 +91,5 @@ function updateObjectWithKeyandValue(obj,key,value) {
 }
 // it's important that we merge everything into a new object such as the empty {}, otherwise the object obj would be modified
 }
-
+ return Object.assign(obj,{key,value})
 
