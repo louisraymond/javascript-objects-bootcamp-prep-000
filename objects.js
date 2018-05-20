@@ -6,4 +6,4 @@ var meals= {
 };
 
 
-return Object.assign({},meals,{breakfast:["oatmeal,banana"]})
+return Object.assign({},meals,{breakfast:["oatmeal,banana"]});
